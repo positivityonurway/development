@@ -5,15 +5,7 @@ description: A complete solution of all apps.
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
-# Read more about iOS versioning at
+# The fol
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 version: 1.0.0+1
 
@@ -33,7 +25,15 @@ dependencies:
   device_apps: ^1.0.9
   font_awesome_flutter: ^8.8.1
   cached_network_image: ^2.2.0+1
-  cloud_firestore: ^0.9.0
+  cloud_firestore:loud_firestore: ^0.9.0
+  firebase_auth: ^0.9.0 # add this line
+  url_launcher: ^5.5.0
+  device_apps: ^1.0.9
+  font_awesome_flutter: ^8.8.1
+  cached_network_i ^0.9.0
+  cached_network_i ^0.9.0
+  cached_network_i ^0.9.0
+  cached_network_i ^0.9.0
   firebase_auth: ^0.9.0 # add this line
   #  flutter_appavailability: ^0.0.21
 
