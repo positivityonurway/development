@@ -24,6 +24,15 @@ Future<bool> isAppInstalled(String packageName) async {
     return false;
   }
 }
+Widget footer0() {
+  return BottomAppBar(
+    child: Text(
+      "Shimooo",
+      textAlign: TextAlign.left,
+      style: TextStyle(color: Colors.black, fontSize: 20),
+    ),
+    color: Colors.white.withOpacity(0.5),
+  );
 
 Widget footer1() {
   return BottomAppBar(
