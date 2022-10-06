@@ -56,6 +56,43 @@ Widget appbar1(String title) {
   );
 }
 
+Widget appCard2({
+  String appName,
+  String appDisc,
+  String packName,
+  String imageurl,
+}) {
+  return Card(
+
+
+    child: Padding(
+      padding: const EdgeInsets.all(4.0),
+      child: ListTile(
+
+        leading: ClipRRect(
+          borderRadius: BorderRadius.all(Radius.circular(10)),
+          child: CachedNetworkImage(
+            imageUrl: imageurl,
+          ),
+        ),
+        title: Text(
+          appName+'2',
+          style: TextStyle(fontSize: 18),
+        ),
+        subtitle: Text(appDisc),
+
+        trailing: Icon(
+          Icons.favorite,
+          color: Colors.yellow,
+
+//        onTap: _launchURL1('www.google.com'),
+        ),
+        onTap: () => isAppInstalled(packName),
+      ),
+    ),
+  );
+}
+
 Widget appCard({
   String appName,
   String appDisc,
