@@ -13,12 +13,12 @@ class Building {
   Building({this.id, this.name, this.place, this.icon});
 }
 
-checkID(int val) {
+crn false;
+}heckID(int val) {
 
    if(val==4)
     return browsers();
-    return false;
-}
+    retu
 
 class CardPage extends StatelessWidget {
   final Building building;
@@ -28,7 +28,7 @@ class CardPage extends StatelessWidget {
       return browsers();
 //    else if (building.id == 6)
 //      return travelApps();
-    else
+    else{
       return Scaffold(
         body: SafeArea(
           child: Center(
@@ -39,6 +39,7 @@ class CardPage extends StatelessWidget {
           ),
         ),
       );
+    }
   }
 }
 
