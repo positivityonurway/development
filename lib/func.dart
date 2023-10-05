@@ -43,6 +43,16 @@ Widget footer1() {
     ),
     color: Colors.white.withOpacity(0.5),
   );
+  
+Widget footer2() {
+  return BottomAppBar(
+    child: Text(
+      "Shimano",
+      textAlign: TextAlign.center,
+      style: TextStyle(color: Colors.black, fontSize: 20),
+    ),
+    color: Colors.white.withOpacity(0.5),
+  );
 
 Widget appbar1(String title) {
   return AppBar(
