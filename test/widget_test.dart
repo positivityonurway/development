@@ -7,7 +7,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
+import 'package:startup_namer/main1.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:startup_namer/main1.dart';
 
 void main() {
@@ -21,6 +22,10 @@ void main() {
 
     // Tap the '+' icon and trigger a frame.
     await tester.tap(find.byIcon(Icons.add));
+    await tester.pump();
+    
+     // Tap the '-' icon and trigger a frame.
+    await tester.tap(find.byIcon(Icons.subtract));
     await tester.pump();
 
     // Verify that our counter has incremented.
