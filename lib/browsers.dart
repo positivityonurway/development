@@ -13,12 +13,6 @@ class browsers extends StatelessWidget {
             height: 10,
           ),
           appCard(
-              appName: 'Google Chrome',
-              appDisc: 'Fast & Secure',
-              packName: 'com.android.chrome',
-              imageurl:
-              "https://lh3.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=s360"),
-          appCard(
               appName: 'Tor Browser',
               appDisc: 'Most Secure Browser',
               packName: 'org.torproject.torbrowser',
@@ -48,7 +42,13 @@ class browsers extends StatelessWidget {
               packName: 'com.brave.browser',
               imageurl:
               "https://lh3.googleusercontent.com/I1foi2Irrv7tW9ee9kgP0wfnMzaVb6y17muvpKsFcUrKYsDlmCyWuTRh5m93KJZ24dY=s360"),
-
+          appCard(
+              appName: 'Firefox Browser',
+              appDisc: 'Fast , Private & Safe Web Browser',
+              packName: 'org.mozilla.firefox',
+              imageurl:
+              "https://lh3.googleusercontent.com/zqsuwFUBwKRcGOSBinKQCL3JgfvOW49vJphq0ZF32aDgfqmuDyl-fEpx4Lxm4pRr7A=s360"),
+          
 
         ],
       ),
