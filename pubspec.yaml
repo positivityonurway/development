@@ -35,6 +35,12 @@ dependencies:
   cached_network_i ^0.9.0
   cached_network_i ^0.9.0
   firebase_auth: ^0.9.0 # add this line
+  font_awesome_flutter: ^8.8.1
+  cached_network_image: ^2.2.0+1
+  cloud_firestore:loud_firestore: ^0.9.0
+  firebase_auth: ^0.9.0 # add this line
+  url_launcher: ^5.5.0
+  device_apps: ^1.0.9
   #  flutter_appavailability: ^0.0.21
 
 
