@@ -44,10 +44,10 @@ Widget footer1() {
     color: Colors.white.withOpacity(0.5),
   );
   
-Widget footer2() {
+Widget footerNew() {
   return BottomAppBar(
     child: Text(
-      "Shimano",
+      "With Regards",
       textAlign: TextAlign.center,
       style: TextStyle(color: Colors.black, fontSize: 20),
     ),
