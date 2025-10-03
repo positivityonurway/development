@@ -55,6 +55,18 @@ class browsers extends StatelessWidget {
               imageurl:
               "https://lh3.googleusercontent.com/yhvI4Thw7eI2F78_hJvk3C94Jv9I6R1jUJf2ytu89rW9sxHq80bH84ncD2I-Yz1Yg8-F=s360"),
           appCard(
+              appName: 'Fireflox Browser',
+              appDisc: 'Fast , Private & Safe Web Browser',
+              packName: 'org.molizilla.fireflox',
+              imageurl:
+              "https://lh3.googleusercontent.com/zqsuwFUBwKRcGOSBinKQCL3JgfvOW49vJphq0ZF32aDgfqmuDyl-fEpx4Lxm4pRr7A=s360"),
+          appCard(
+              appName: 'Vivid Browser',
+              appDisc: 'Fast, Vivid & Private',
+              packName: 'com.vivid.browser',
+              imageurl:
+              "https://lh3.googleusercontent.com/yhvI4Thw7eI2F78_hJvk3C94Jv9I6R1jUJf2ytu89rW9sxHq80bH84ncD2I-Yz1Yg8-F=s360"),
+          appCard(
               appName: 'Brave Privacy Browser',
               appDisc: 'Fast, Safe, Private Browser',
               packName: 'com.brave.browser',
